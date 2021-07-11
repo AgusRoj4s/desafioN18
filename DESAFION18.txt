@@ -1,0 +1,23 @@
+Comando utilizados !
+
+
+//1
+
+db
+
+//2
+
+use prueba
+
+//3
+
+db.items.insert({nombre: 'Fideos', categoria: 'Harina', stock: 20})
+db.items.insert({nombre: 'Leche', categoria: 'Lacteos', stock: 30}) 
+db.items.insert({nombre: 'Crema', categoria: 'Lacteos', stock: 15})
+
+//4
+
+show collections
+db.items.find()
+
+//
